@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons')
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.IconSwitch {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.CardsView {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop {
+  width: 100%;
+}
+
+.ShopCard {
+  border-radius: 0.5rem;;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: calc(30% - 1.5rem);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  box-shadow: 10px 10px 5px #CCCCCC;
+}
+
+.ShopCard__color,
+.ShopItem__color {
+  color: #6A6A6A;
+  font-size: 1rem;
+}
+
+.ShopCard__img {
+  width: 100%;
+}
+
+.ShopCard__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: #D5513A;
+}
+
+.ShopCard__price,
+.ShopItem__price {
+  font-size: large;
+  padding: 0.5rem;
+}
+
+.ShopCard__button,
+.ShopItem__button {
+  border: 1px solid #D5513A;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.ListView {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShopItem {
+  max-height: 75px;;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+}
+
+.ShopItem__cell {
+  width: 20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ShopItem__img {
+  max-width: 70px;
+}
+
+.ShopItem__price,
+.ShopItem__button {
+  color:#D5513A
+}

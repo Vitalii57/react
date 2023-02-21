@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+.Form {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.FormCol {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.formButton {
+  width: 100%;
+  height: 2rem;
+}

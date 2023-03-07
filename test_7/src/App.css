@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 500px;
+  margin: 30px auto;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+.fieldInputs {
+  margin-top: 30px;
+}
+
+.block-field {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-field {
+  vertical-align: bottom;
+}
+
+.field,
+.button {
+  width: 250px;
+  height: 20px;
+}
+
+.button {
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 25%;
+  border: 2px solid rgb(186, 182, 182);
+}
+
+.button:hover {
+  transform: scale(1.1);
+}

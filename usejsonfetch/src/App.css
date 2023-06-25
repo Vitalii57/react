@@ -1,0 +1,40 @@
+:root {
+  --yellow: #ffd726;
+  --margin: 1rem;
+}
+
+.body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  text-align: center;
+}
+
+.note {
+  margin: var(--margin);
+  width: calc(100% - var(--margin));
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+  padding: calc(var(--margin) / 2);
+}
+
+strong {
+  background-color: var(--yellow);
+}
+
+.сomponent__example {
+  width: 100%;
+  margin: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}

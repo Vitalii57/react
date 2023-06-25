@@ -1,0 +1,22 @@
+.info {
+  text-align: center;
+}
+
+.App,
+.app__preloader {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 2rem);
+  margin: 1rem;
+}
+
+.preloader {
+  width: calc(50% - 1rem);
+}
+
+.details__preloader {
+  width: 100%;
+  text-align: center;
+  color: grey;
+}
